@@ -23,7 +23,8 @@ class User {
 let userData: User[] = [
   new User("shuaib", "K", "shaikh", "shuaib@mail.com", "478673910", Roles.USER, "Delhi"),
   new User("mohit", "kumar", "Singh", "mohit@mail.com", "494302109", Roles.MANAGER, "Mumbai"),
-  new User("rohit", "kimar", "sharma", "rohit@mail.com", "4895703908", Roles.ADMIN, "Mohali")
+  new User("rohit", "kimar", "sharma", "rohit@mail.com", "4895703908", Roles.ADMIN, "Mohali"),
+  new User("ankit", "kumar", "verma", "ankit@gmail.com", "4785632109", Roles.USER, "Chennai"),
 ];
 
 
