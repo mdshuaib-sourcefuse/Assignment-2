@@ -1,0 +1,41 @@
+body {
+font-family: Arial, sans-serif;
+padding: 20px;
+}
+
+
+button {
+padding: 7px 12px;
+cursor: pointer;
+background-color: lightcoral;
+
+}
+
+
+.hidden {
+display: none;
+}
+
+
+table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 50px;
+}
+
+th, td {
+border: 3px solid #a59f9f;
+padding: 8px;
+text-align: center
+}
+
+h1{
+    text-align: center;
+    background-color:darkorange
+}
+#loadBtn{
+    background-color:darkgreen; 
+    color:white;
+    font-weight: bold;
+    
+}
