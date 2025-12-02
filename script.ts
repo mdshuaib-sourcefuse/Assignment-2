@@ -36,6 +36,7 @@ class UserCrud {
   private tableBody = document.querySelector("#userTable tbody") as HTMLTableSectionElement;
   private loadBtn = document.getElementById("loadBtn") as HTMLButtonElement;
 
+
   constructor() {
     this.loadBtn.addEventListener("click", () => {
       if (this.loadBtn.innerText === "Load Data") this.load();
@@ -71,11 +72,10 @@ class UserCrud {
     userData[index].phone = (inputs[4] as HTMLInputElement).value;
     userData[index].role = (inputs[5] as HTMLInputElement).value as Roles;
     userData[index].address = (inputs[6] as HTMLInputElement).value;
-
     userData[index].editing = false;
     this.renderTable();
   }
-
+// when cancel button is clicked
   cancel(index: number): void {
     userData[index].editing = false;
     this.renderTable();
